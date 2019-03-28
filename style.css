@@ -1,0 +1,154 @@
+body{
+    /* background: url ("https://images.pexels.com/photos/1154739/pexels-photo-1154739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+background-image: url("images/background.jpeg")
+}
+
+nav{
+    color:  rgba(248, 185, 69, 0.932);
+    text-align: right;
+    align-content: right;
+    position: sticky;
+    padding-right:20px;
+    margin-bottom: 100px;
+    height: 150px;
+
+}
+
+.nav-link{
+    color:rgba(248, 185, 69, 0.932); 
+}
+a{
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    /* color:rgba(248, 185, 69, 0.932); */
+    color:darkblue; 
+    font-size: 25px;
+}
+p {
+    /* font-family: 'Pacifico', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Dosis', sans-serif; */
+    font-size: 25px;
+
+}
+   
+
+.jumbotron{
+    opacity: .90;
+    color:  rgb(29, 29, 138);
+    background-color: rgba(245, 245, 245, 0.788);
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right:10%;
+    border-radius: 5px;
+}
+h1 {
+    font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: rgb(21, 21, 104);
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+
+  }
+  .containerJum{
+      background-color: whitesmoke;
+      padding: 25px;
+  }
+  #rowOne{
+      align-content: center;
+  }
+  #containerForm{
+      margin-left: 20%;
+      margin-right:20%;
+      margin-top: 10%;
+      color: aliceblue;
+      font-size: 25px;
+      background-color: rgba(245, 245, 245, 0.178);
+      padding: 15px;
+  }
+  #conatinerhead{
+      background-color: whitesmoke;
+      opacity: .90;
+  }
+  .card{
+      
+      display: flex right;
+      width: 900px;
+      margin: auto;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border: rgb(170, 166, 166);
+      color: darkblue;
+      background: transparent;
+      
+    }
+      
+  .conntainerMain{
+      align-content: center;
+  }
+
+  .formControl{
+      background-color: lightslategray;
+
+  }
+
+  .jumbotronPortfolio{
+    opacity: .90;
+    color:  rgb(29, 29, 138);
+    background-color: rgba(245, 245, 245, 0.788);
+    text-align: center;
+    margin-top: 20px;
+    margin-left:20%;
+    margin-right:20%;
+    padding-top: 5px;
+    border-radius: 10PX;
+    
+
+  }
+
+  .containerLast{ 
+      align-content: center;
+      width: 400px;
+      background-color: none;
+      opacity:.75;
+      margin-left:100px;
+      padding: 20px;
+      border-radius: 10%;
+      height: 25px;
+      padding-left: 100px;
+      font-family: 'Pacifico', cursive;
+      
+  }
+
+button{
+  
+    font-family: 'Pacifico', cursive;
+    
+}
+.fa {
+    margin-top: 5px;
+}
+
+.card-header{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 20px;
+}
+
+label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px !important;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.img-thumbnail {
+    height: 200px;
+  
+}
+
+.card-body {
+    display: block;
+}
+
+ 
